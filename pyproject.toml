@@ -2,8 +2,8 @@
   requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
   build-backend = "setuptools.build_meta"
 [project]
-  name = "Spyce"
-  description = "Sphinx Slizes"
+  name = "Slides"
+  description = "Sphinx Slides"
   readme = "README.rst"
   classifiers = [
     "Programming Language :: Python :: 3",
@@ -13,7 +13,6 @@
   dynamic = ["version"]
   dependencies = [
     "setuptools-scm",
-    "versioneer-518",
     ]
   # author = "Andrew Ernest"
   # author_email = "anernest@ratesresearch.org"
