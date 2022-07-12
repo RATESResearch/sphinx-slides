@@ -1,0 +1,28 @@
+[build-system]
+  requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+  build-backend = "setuptools.build_meta"
+[project]
+  name = "Spyce"
+  description = "Sphinx Slizes"
+  readme = "README.rst"
+  classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+  ]
+  dynamic = ["version"]
+  dependencies = [
+    "setuptools-scm",
+    ]
+  # author = "Andrew Ernest"
+  # author_email = "anernest@ratesresearch.org"
+  # long_description = "file: README.rst"
+  # long_description_content_type = "text/markdown"
+  # url = "https://github.com/RATESResearch/Spyce"
+  # project_urls = Bug Tracker = "https://github.com/RATESResearch/Spyce/issues"
+[tool.setuptools.packages.find]
+  where = ["src"]  
+[tool.setuptools_scm]
+  write_to = "src/sphinx-slides/_version.py"
+  root = '.'
+  #elative_to='setup.py'
