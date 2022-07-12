@@ -13,7 +13,7 @@
   dynamic = ["version"]
   dependencies = [
     "setuptools-scm",
-    "versioneer",
+    "versioneer-518",
     ]
   # author = "Andrew Ernest"
   # author_email = "anernest@ratesresearch.org"
