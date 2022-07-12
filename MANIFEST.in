@@ -1,0 +1,2 @@
+include versioneer.py
+include src/sphinx-slides/_version.py
